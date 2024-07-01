@@ -1,0 +1,27 @@
+h1, h2 {
+    color: red;
+  }
+  
+  p {
+    color: #ffc107;
+  }
+  ul {
+    border: 2px solid green;
+  }
+  
+  ol {
+    border: 2px solid grey;
+  }
+  
+  ol, ul {
+    padding: 5px 400px;
+    border-radius: 50px;
+  }
+  h1, strong {
+    color: Blue;
+  }
+  
+  em {
+    color: gray;
+  }
+  
