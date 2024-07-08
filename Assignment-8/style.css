@@ -172,13 +172,13 @@ main {
 
 .sidebar a {
   display: block;
-  margin-bottom: 10px; /* Optional: add some space between the images */
+  margin-bottom: 10px; 
   width: 50%;
   box-sizing: 5px;
 }
 
 .sidebar img {
-  width: 100%; /* Make images responsive */
+  width: 100%; 
   display: block;
 }
 
