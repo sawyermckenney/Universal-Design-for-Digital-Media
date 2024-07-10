@@ -1,0 +1,58 @@
+header {
+    padding: 40px;
+    background-color: tan;
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.leftAside {
+    flex: 1;
+    background-color: lightblue;
+}
+.rightAside {
+    flex: 1;
+    background-color: aqua;
+}
+.center{
+    background-color: blueviolet;
+    flex: 2;
+    padding: 42px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+    background-color: maroon;
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.playwrite-hu-heading {
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.playwrite-hu-paragraph {
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
