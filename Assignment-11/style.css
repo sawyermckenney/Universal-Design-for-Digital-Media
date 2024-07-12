@@ -35,10 +35,23 @@ label{
 select:focus, select:active, input:focus, input:active, input:focus + label,
 input:active + label, label[for]:focus, label[for]:active {
 color: #FFF !important;
-background-color: #BB3D2F !important;}
+background-color: #d0301e !important;}
 /* end of form css */
-	
+    
 #formcol1 input.reqfield {
-    background:#FF9;
+    background:rgb(255, 255, 14);
 }
 
+#wrapper {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 10px 8px #888888;
+    width: 60%;
+    margin: auto;
+}
+
+#proposal2020
+{
+    text-align: center;
+}
